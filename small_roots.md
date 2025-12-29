@@ -25,6 +25,7 @@ a hint from the chall description:
 `I heard there is a function somewhere to find small roots...`
   
 see im not a crypto person but according to google, its an implementation of coppersmiths method on sagemath yay!  
+note: you gotta make the thing monic so that the `small_roots()` works  
   
 and so here is the solve:
 ```sagemath
