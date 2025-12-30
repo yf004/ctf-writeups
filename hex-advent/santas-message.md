@@ -16,7 +16,7 @@ directly opening the pcapng, we just see a some smb stuff and whatnot, transpare
   
 thankfully google exists and i found [this](https://medium.com/@AT24/block-ctf-walkthrough-thm-88c28ca85189) which wasnt actually that helpful in this case cos we arent provided with the `.DMP` thing but i guess i kinda got an idea of smb and how the ntlm auth works  
   
-and so i found [this](https://medium.com/maverislabs/decrypting-smb3-traffic-with-just-a-pcap-absolutely-maybe-712ed23ff6a2)after looking specifically for decrypting given only the traffic and that basically describes exactly how to solve this challenge. 
+and so i found [this](https://medium.com/maverislabs/decrypting-smb3-traffic-with-just-a-pcap-absolutely-maybe-712ed23ff6a2) after looking specifically for decrypting given only the traffic and that basically describes exactly how to solve this challenge. 
 however, after you crack the password with `hashcat`, dont follow the calculate session key thing, i tried and it didnt work and i wasted a bunch of time :(  
   
 instead, take that password, go preferences -> protocols -> NTLMSSP, and input it into `nt password`  
