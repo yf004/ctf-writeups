@@ -1,8 +1,6 @@
 ### chall name: Prompt-to-Pivot: Echoes of v0
 hex advent day 10
 
-looking back... so many small clues i shouldve seen oml 
-this is the challenge website given, source code not provided D:  
   
 ![](imgs/website.png)
   
