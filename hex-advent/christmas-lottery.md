@@ -8,19 +8,19 @@ from com/christmas/lottery/christmaslottery and mainactivity, and some other hel
 ```
 signInAnonymously()
     ↓
-Receive Firebase UID
+receive Firebase uid
     ↓
-Get ID Token (JWT containing UID)
+get id token (jwt containing uid)
     ↓
 POST /init with idToken
     ↓
-Backend Flow:
-    1. Verify JWT signature
-    2. Extract UID from token
-    3. Generate/retrieve seed for this UID
-    4. Return seed: { "seed": 1216949965 }
+backend flow(i think??):
+    1. verify jwt signature
+    2. extract uid from token
+    3. generate/retrieve seed for this UID
+    4. return seed 
     ↓
-Store seed in MainActivity.secretSeed  
+store seed in MainActivity.secretSeed  
     ↓
 generate ticket  
 ```
