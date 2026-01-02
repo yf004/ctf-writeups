@@ -114,6 +114,5 @@ Java.perform(function () {
 });
 ```
   
-then input the ticket, and on success, u get toast:  
-Valid ticket! Flag: `HEX{Fr1d4_i5_S4nT4s_b3sT_fRi3nD}`  
-heheh  
+then input the ticket, and on success, u get toast with flag heheh  
+![](imgs/lottery.jpeg)  
